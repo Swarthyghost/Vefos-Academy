@@ -1,24 +1,26 @@
-import React from 'react';
+import career1 from '../assets/career1.png';
+import career2 from '../assets/career2.png';
+import career3 from '../assets/career3.png';
 import { motion } from 'motion/react';
 
 export default function CareerCorner() {
   const students = [
     {
       name: "Akosua",
-      costume: "Future Doctor",
-      image: "https://picsum.photos/seed/child-doctor/400/500",
+      costume: "Future Leader",
+      image: career1,
       quote: "I want to heal people and make sure everyone in our community stays healthy and strong!"
     },
     {
       name: "Kwame",
-      costume: "Future Engineer",
-      image: "https://picsum.photos/seed/child-engineer/401/500",
+      costume: "Future Architect",
+      image: career2,
       quote: "I will build solar-powered cities that will help save our planet and provide constant energy for all."
     },
     {
       name: "Efua",
-      costume: "Future Pilot",
-      image: "https://picsum.photos/seed/child-pilot/402/500",
+      costume: "Future Explorer",
+      image: career3,
       quote: "The sky is not the limit, it's my office. I want to see every corner of the world from above!"
     }
   ];
@@ -45,8 +47,7 @@ export default function CareerCorner() {
                  <img
                   src={student.image}
                   alt={student.name}
-                  className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
-                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                 />
               </div>
               <div className="p-10 bg-paper group-hover:bg-paper-dark transition-colors w-full border-t border-border-subtle">

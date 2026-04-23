@@ -37,7 +37,7 @@ export default function Navbar() {
               </a>
             ))}
             <div className="h-6 w-[1px] bg-border-subtle mx-2"></div>
-            <span className="text-[11px] font-bold text-brand-blue tracking-widest">+233 24 000 0000</span>
+            <span className="text-[11px] font-bold text-brand-blue tracking-widest">+233 24 307 8482</span>
           </div>
 
           {/* Mobile menu button */}

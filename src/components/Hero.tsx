@@ -1,4 +1,5 @@
 import React from 'react';
+import studentsImg from '../assets/students.png';
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -35,10 +36,9 @@ export default function Hero() {
       {/* Image Panel */}
       <div className="flex-[0.8] relative border-b border-border-subtle min-h-[400px]">
         <img
-          src="https://picsum.photos/seed/students-learning/1200/1600"
+          src={studentsImg}
           alt="Students at Vefos Academy"
           className="absolute inset-0 w-full h-full object-cover"
-          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-brand-blue/10"></div>
         <div className="absolute bottom-8 right-8 bg-white px-6 py-3 text-[10px] font-bold tracking-widest uppercase border border-border-subtle shadow-xl">

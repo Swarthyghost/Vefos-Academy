@@ -60,7 +60,7 @@ export default function ContactPage() {
                  <div className="w-8 h-8 rounded-full bg-brand-blue flex items-center justify-center text-white">
                     <Phone className="w-4 h-4" />
                  </div>
-                 <span className="text-xs font-bold tracking-widest text-brand-blue">+233 24 000 0000</span>
+                <span className="text-xs font-bold tracking-widest text-brand-blue">+233 24 307 8482</span>
                </div>
                <div className="flex items-center space-x-4">
                  <div className="w-8 h-8 rounded-full bg-brand-blue flex items-center justify-center text-white">
