@@ -1,0 +1,8 @@
+{
+  "name": "Vefos Academy",
+  "description": "Welcome to Vefos Academy, a premier educational institution in Ablekuma, Accra, providing excellence in Nursery, Primary, and Secondary education. Empowering students for a bright future.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
